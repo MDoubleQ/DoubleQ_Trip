@@ -25,28 +25,3 @@ M&DQ 旅途是一个面向用户提供民宿预订服务的移动端网站，用
 详情数据结构相对较为复杂，需对图片进行归类，自定义分页器等
 ### 解决方案
 对图片按照分类进行分组，生成一个包含多个分类的数组对象。然后，在分页器组件中，使用 v-for 指令循环遍历这个数组对象，为每个分类显示一个包含多个图片的滑动组件。滑动组件中，使用 v-for 指令再次循环遍历该分类下的所有图片，并根据当前展示的图片索引和所属分类来判断是否需要高亮显示该图片。
-
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
