@@ -1,5 +1,5 @@
 <template>
-  <div class="tab-bar">
+  <div class="tab-bar" >
     <template v-for="(item, index) in tabbarDate">
       <div class="tab-bar-item"
            @click="itemClick(item, index)"
@@ -28,7 +28,7 @@ export default {
                     import.meta.url).href
     },
     itemClick(item, index) {
-      console.log("holle click")
+      // console.log("holle click")
       this.currentIndex = index
       this.$router.push(item.path)
     }
@@ -45,8 +45,9 @@ export default {
   height: 50px;
 
   border: 1px solod #f3f3f3;
-
+  background-color: #fff;
   display: flex;
+  // z-index: 999;
 }
 
 .tab-bar-item {

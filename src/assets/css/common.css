@@ -1,6 +1,19 @@
 :root {
   --theme-color: #ff9854;
+  --van-primary-color:var(--theme-color) !important;
 }
 body {
   font-size: 14px;
+}
+
+.bottom-gray-line {
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.top-page {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
 }

@@ -14,7 +14,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 46px;
+  height: 44px;
 
   border-bottom: 1px solid #f2f2f2;
 
