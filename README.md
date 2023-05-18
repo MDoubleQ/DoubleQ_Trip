@@ -4,7 +4,7 @@
 
 M&DQ 旅途是一个面向用户提供民宿预订服务的移动端网站，用户可以通过网站搜索、预订喜欢的民宿，还可以查看订单详情、接收订单消息等功能。
 
-![img](E:\coder\09_OneNote\image\a3c05633b9a05bc347c97.png)
+![img](https://telegra.ph/file/a3c05633b9a05bc347c97.png)
 
 ## 技术点
 
